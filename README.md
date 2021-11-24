@@ -3,7 +3,7 @@
 
 > A set-up project with github flow and linter configuration 
 
-![screenshot](assets/screenshot.png)
+![screenshot](assets/screentshot1.png)
 
 ## Built With
 

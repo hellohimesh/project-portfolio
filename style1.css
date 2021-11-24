@@ -2,8 +2,8 @@
   position: absolute;
   width: 111px;
   height: 74px;
-  left: 0px;
-  top: 0px;
+  left: 0; /* no unit */
+  top: 0; /* no unit */
 }
 
 .ic_menu {
@@ -31,7 +31,7 @@
   height: 100px;
   left: 16px;
   top: 104px;
-  /* font-family: Playfair Display; */
+  font-family: Playfair Display, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -47,13 +47,13 @@
   height: 126px;
   left: 16px;
   top: 224px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  color: #1A2236;
+  color: #1a2236;
 }
 
 .collaborate_button {
@@ -71,20 +71,20 @@
   height: 26.47px;
   left: 58px;
   top: 402px;
-  /* font-family: Poppins; */
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .image_geometry_1 {
   position: absolute;
   width: 320px;
   height: 160px;
-  left: 0px;
+  left: 0; /* no unit */
   top: 472px;
 }
 
@@ -92,7 +92,7 @@
   position: absolute;
   width: 320px;
   height: 2134px;
-  left: 0px;
+  left: 0; /* no unit */
   top: 672px;
 }
 
@@ -101,17 +101,11 @@
   width: 181px;
   height: 50px;
   left: 16px;
-  /* font-family: Playfair Display; */
+  font-family: Playfair Display, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
   line-height: 100%;
-
-  /* identical to box height, or 50px */
-  color: #1a2236;
-
-  /* identical to box height, or 50px */
-  color: #1a2236;
 
   /* identical to box height, or 50px */
   color: #1a2236;
@@ -121,6 +115,6 @@
   position: absolute;
   width: 320px;
   height: 2052px;
-  left: 0px;
+  left: 0; /* no unit */
   top: 754px;
 }
