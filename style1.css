@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .headerimgHolder {
   position: absolute;
   width: 111px;
@@ -20,8 +21,9 @@
 
 .flex-container {
   display: flex;
-  align-items:center;
+  align-items: center;
   position: absolute;
+
   /* width: 288px;
   height: 336px;
   left: 16px; */
@@ -36,7 +38,7 @@
   margin-top: 0;
   font-style: normal;
   font-weight: normal;
-   font-size: 3.2em; 
+  font-size: 3.2em;
   line-height: 100%;
 
   /* or 50px */
@@ -67,10 +69,20 @@
   background: #1a2236;
 }
 
-.collaborate_button:hover{
-  background-color :burlywood;
+.collaborate_button:hover {
+  background-color: burlywood;
 }
-.image-container{
+
+#start-collaboration {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.image-container {
   display: flex;
   align-content: space-around;
 }
@@ -79,11 +91,10 @@
   background-image: url("assets/image_geometry_2-1.png");
   position: absolute;
   width: 320px;
-  
   height: 160px;
-  
   top: 472px;
 }
+
 .text_colo {
   position: absolute;
   width: 203.68px;
