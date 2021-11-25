@@ -130,10 +130,75 @@
   color: #1a2236;
 }
 
+.project_title_holder>h3 {
+  font-weight: 100;
+  margin-top: 0;
+}
+
 .Rectangle_image {
   position: absolute;
   width: 320px;
   height: 2052px;
   left: 0; /* no unit */
   top: 754px;
+}
+
+.project-grid{
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 100px;
+}
+
+.grid-item>img {
+  width: 320px;
+  left: 0px;
+  margin-bottom: 0;
+  height: 200px;
+}
+
+#project-details {
+  position: absolute;
+  width: 320px;
+  height: 156px;
+  left: 0px;
+  background: #1A2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+  
+}
+
+#project-details>h5 {
+position: absolute;
+width: 264px;
+left: 6%;
+margin-top: 15px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 80%;
+margin-bottom: 0;
+color: #FFFFFF;
+}
+
+.technology-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  left: 6%;
+ margin-top: 0;
+ 
+}
+
+#technology-grid-item {
+
+  height: 20px;
+  background: #98DEDE; 
+  margin-right: 10px;
+  margin-left:10px;
+  margin-top: 45px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%
 }
