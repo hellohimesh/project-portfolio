@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.headerimgHolder {
+  position: absolute;
+  width: 111px;
+  height: 74px;
+  left: 0; /* no unit */
+  top: 0; /* no unit */
+}
+
+.ic_menu {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  right: 15px;
+  top: 19px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.title_name {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2em;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.about_description {
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 224px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.collaborate_button {
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
+  background: #1a2236;
+}
+
+.collaborate_button:hover {
+  background-color: burlywood;
+}
+
+#start-collaboration {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.image-container {
+  display: flex;
+  align-content: space-around;
+}
+
+#image_geometry_2-1 {
+  background-image: url("assets/image_geometry_2-1.png");
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  top: 472px;
+}
+
+.text_colo {
+  position: absolute;
+  width: 203.68px;
+  height: 26.47px;
+  left: 58px;
+  top: 402px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.image_geometry_1 {
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 0; /* no unit */
+  top: 472px;
+}
+
+.project_container {
+  position: absolute;
+  width: 320px;
+  height: 2134px;
+  left: 0; /* no unit */
+  top: 672px;
+}
+
+.project_title_holder {
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+#project-heading {
+  margin-top: 0;
+  font-weight: 100;
+}
+
+.Rectangle_image {
+  position: absolute;
+  width: 320px;
+  height: 2052px;
+  left: 0; /* no unit */
+  top: 754px;
+}
