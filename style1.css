@@ -15,18 +15,12 @@
   height: 14px;
   right: 15px;
   top: 19px;
-
-  /* background: #1A2236; */
 }
 
 .flex-container {
   display: flex;
   align-items: center;
   position: absolute;
-
-  /* width: 288px;
-  height: 336px;
-  left: 16px; */
 }
 
 .title_name {
@@ -40,8 +34,6 @@
   font-weight: normal;
   font-size: 3.2em;
   line-height: 100%;
-
-  /* or 50px */
   color: #1a2236;
 }
 
@@ -135,8 +127,6 @@
   font-weight: normal;
   font-size: 50px;
   line-height: 100%;
-
-  /* identical to box height, or 50px */
   color: #1a2236;
 }
 
