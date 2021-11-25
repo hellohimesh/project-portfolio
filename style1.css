@@ -130,6 +130,11 @@
   color: #1a2236;
 }
 
+#project-heading {
+  margin-top: 0;
+  font-weight: 100;
+}
+
 .Rectangle_image {
   position: absolute;
   width: 320px;
