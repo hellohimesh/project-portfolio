@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* body {
+  width: 100%;
+}
+.main-container {
+  position:relative;
+} */
 
 .headerimgHolder {
   position: absolute;
@@ -13,14 +19,20 @@
   position: absolute;
   width: 20px;
   height: 14px;
-  right: 15px;
   top: 19px;
+}
+
+.ic_menu>button {
+  background-color: white;
+  border: none;
+  margin-left: 280px;
 }
 
 .flex-container {
   display: flex;
   align-items: center;
   position: absolute;
+  width: 100%;
 }
 
 .title_name {
@@ -39,9 +51,9 @@
 
 .about_description {
   position: absolute;
-  width: 288px;
   height: 126px;
   left: 16px;
+  margin-right: 25px;
   top: 224px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -50,6 +62,9 @@
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
+}
+section>a {
+  align-content: center;
 }
 
 .collaborate_button {
@@ -87,6 +102,40 @@
   top: 472px;
 }
 
+.grid-project-image5 {
+  background-image: url("assets/Rectangle21-5.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
+}
+
+.grid-project-image1 {
+  background-image: url("assets/Rectangle-21.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  
+}
+
+.grid-project-image2 {
+  background-image: url("assets/Rectangle-21-2.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
+}
+
+.grid-project-image3 {
+  background-image: url("assets/Rectangle21-3.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
+}
+
+.grid-project-image4 {
+  background-image: url("assets/Rectangle21-4.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
+}
 .text_colo {
   position: absolute;
   width: 203.68px;
@@ -112,13 +161,13 @@
 
 .project_container {
   position: absolute;
-  width: 320px;
+ 
   height: 2134px;
   left: 0; /* no unit */
   top: 672px;
 }
 
-.project_title_holder {
+.section_title_holder {
   position: absolute;
   width: 181px;
   height: 50px;
@@ -130,14 +179,15 @@
   color: #1a2236;
 }
 
-.project_title_holder>h3 {
+.section_title_holder>h3 {
   font-weight: 100;
   margin-top: 0;
+  
+
 }
 
 .Rectangle_image {
   position: absolute;
-  width: 320px;
   height: 2052px;
   left: 0; /* no unit */
   top: 754px;
@@ -146,19 +196,26 @@
 .project-grid{
   display: grid;
   grid-template-columns: auto;
-  margin-top: 100px;
 }
 
+.grid-item1 {
+  margin-top:80px;
+} 
+.grid-item {
+  padding-bottom: 0px;
+  margin-top:155px;
+}
+/* 
 .grid-item>img {
   width: 320px;
   left: 0px;
   margin-bottom: 0;
   height: 200px;
-}
+} */
 
 #project-details {
   position: absolute;
-  width: 320px;
+  width: 100%;
   height: 156px;
   left: 0px;
   background: #1A2236;
@@ -184,7 +241,7 @@ color: #FFFFFF;
 .technology-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  left: 6%;
+  margin-left: 10px;
  margin-top: 0;
  
 }
@@ -200,5 +257,22 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 300;
   font-size: 10.3334px;
-  line-height: 80%
+ line-height: 0%;
+ font-weight: 400;
 }
+
+#technology-grid-item>p {
+  text-align: center;
+}
+
+.see-project-button {
+  width: 178px;
+  height: 44px;
+  left: 20px;
+  border: 1px solid #FFFFFF; background:  #1A2236; color: azure; margin-top: 25px; margin-left: 20px; 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+
