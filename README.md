@@ -1,7 +1,7 @@
 
 # portfolio
 
-> A set-up project with github flow and linter configuration 
+> A portfolio project converted from figma template  
 
 ![screenshot](assets/screenshot.png)
 
