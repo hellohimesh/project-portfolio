@@ -47,6 +47,7 @@
   position: absolute;
   height: 126px;
   left: 16px;
+  width: 280px;
   margin-right: 25px;
   top: 224px;
   font-family: Poppins, sans-serif;
@@ -328,6 +329,7 @@ section > a {
   left: 16px;
   top: 3420px;
   background: #febf52;
+  padding: 0%;
 }
 
 .language-grid-item > img {
@@ -338,14 +340,15 @@ section > a {
 
 .framework-grid-item > img {
   position: absolute;
-  left: 188px;
-  top: 180px;
+  left: 192px;
+  top: 192px;
 }
 
 .skill-grid-item > img {
   position: absolute;
   left: 185px;
-  top: 180px;
+  top: 185px;
+  padding: 0%;
 }
 
 .about-skill-heading {
