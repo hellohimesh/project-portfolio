@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* body {
-  width: 100%;
-}
-.main-container {
-  position:relative;
-} */
 
 .headerimgHolder {
   position: absolute;
@@ -22,7 +16,7 @@
   top: 19px;
 }
 
-.ic_menu>button {
+.ic_menu > button {
   background-color: white;
   border: none;
   margin-left: 280px;
@@ -63,7 +57,8 @@
   letter-spacing: -0.01em;
   color: #1a2236;
 }
-section>a {
+
+section > a {
   align-content: center;
 }
 
@@ -113,7 +108,6 @@ section>a {
   background-image: url("assets/Rectangle-21.png");
   background-repeat: no-repeat;
   height: 180px;
-  
 }
 
 .grid-project-image2 {
@@ -136,6 +130,7 @@ section>a {
   height: 180px;
   width: 320px;
 }
+
 .text_colo {
   position: absolute;
   width: 203.68px;
@@ -161,7 +156,6 @@ section>a {
 
 .project_container {
   position: absolute;
- 
   height: 2134px;
   left: 0; /* no unit */
   top: 672px;
@@ -179,11 +173,13 @@ section>a {
   color: #1a2236;
 }
 
-.section_title_holder>h3 {
+.section_title_holder-about {
+  margin-top: 500px;
+}
+
+.section_title_holder > h3 {
   font-weight: 100;
   margin-top: 0;
-  
-
 }
 
 .Rectangle_image {
@@ -193,75 +189,65 @@ section>a {
   top: 754px;
 }
 
-.project-grid{
+.project-grid {
   display: grid;
   grid-template-columns: auto;
 }
 
 .grid-item1 {
-  margin-top:80px;
-} 
-.grid-item {
-  padding-bottom: 0px;
-  margin-top:155px;
+  margin-top: 80px;
 }
-/* 
-.grid-item>img {
-  width: 320px;
-  left: 0px;
-  margin-bottom: 0;
-  height: 200px;
-} */
 
-#project-details {
+.grid-item {
+  padding-bottom: 0;
+  margin-top: 155px;
+}
+
+.project-details {
   position: absolute;
   width: 100%;
   height: 156px;
-  left: 0px;
-  background: #1A2236;
+  left: 0;
+  background: #1a2236;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1px);
-  
 }
 
-#project-details>h5 {
-position: absolute;
-width: 264px;
-left: 6%;
-margin-top: 15px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 80%;
-margin-bottom: 0;
-color: #FFFFFF;
+.project-details > h5 {
+  position: absolute;
+  width: 264px;
+  left: 6%;
+  margin-top: 15px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  margin-bottom: 0;
+  color: #fff;
 }
 
 .technology-grid {
   display: grid;
   grid-template-columns: auto auto auto;
   margin-left: 10px;
- margin-top: 0;
- 
+  margin-top: 0;
 }
 
-#technology-grid-item {
-
+.technology-grid-item {
   height: 20px;
-  background: #98DEDE; 
+  background: #98dede;
   margin-right: 10px;
-  margin-left:10px;
+  margin-left: 10px;
   margin-top: 45px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 300;
   font-size: 10.3334px;
- line-height: 0%;
- font-weight: 400;
+  line-height: 0%;
+  font-weight: 400;
 }
 
-#technology-grid-item>p {
+.technology-grid-item > p {
   text-align: center;
 }
 
@@ -269,10 +255,117 @@ color: #FFFFFF;
   width: 178px;
   height: 44px;
   left: 20px;
-  border: 1px solid #FFFFFF; background:  #1A2236; color: azure; margin-top: 25px; margin-left: 20px; 
-  font-family: Poppins;
+  border: 1px solid #fff;
+  background: #1a2236;
+  color: azure;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
 }
 
+.about-container {
+  margin-top: 1980px;
+}
+
+.about-desc {
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 2550px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+}
+
+.about-desc > button {
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #1a2236;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.language-grid-item {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 2800px;
+  background: #1c528a;
+}
+
+.framework-grid-item {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3110px;
+  background: #e2505c;
+}
+
+.skill-grid-item {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3420px;
+  background: #febf52;
+}
+
+.language-grid-item > img {
+  position: absolute;
+  left: 185px;
+  top: 185px;
+}
+
+.framework-grid-item > img {
+  position: absolute;
+  left: 188px;
+  top: 180px;
+}
+
+.skill-grid-item > img {
+  position: absolute;
+  left: 185px;
+  top: 180px;
+}
+
+.about-skill-heading {
+  margin-bottom: 0;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  padding-left: 65px;
+}
+
+.skill-list {
+  margin-left: 40px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
