@@ -3,7 +3,7 @@
 
 > A portfolio project converted from figma template  
 
-![screenshot](assets/6.png)
+![screenshot](assets/61-.png)
 
 
 ## Built With
