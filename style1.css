@@ -13,14 +13,20 @@
   position: absolute;
   width: 20px;
   height: 14px;
-  right: 15px;
   top: 19px;
+}
+
+.ic_menu > button {
+  background-color: white;
+  border: none;
+  margin-left: 280px;
 }
 
 .flex-container {
   display: flex;
   align-items: center;
   position: absolute;
+  width: 100%;
 }
 
 .title_name {
@@ -39,9 +45,10 @@
 
 .about_description {
   position: absolute;
-  width: 288px;
   height: 126px;
   left: 16px;
+  width: 280px;
+  margin-right: 25px;
   top: 224px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -52,8 +59,18 @@
   color: #1a2236;
 }
 
-.collaborate_button {
+section > a {
+  align-content: center;
+}
+
+.start-collaboration {
   position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
   width: 288px;
   height: 50px;
   left: 16px;
@@ -61,17 +78,9 @@
   background: #1a2236;
 }
 
-.collaborate_button:hover {
-  background-color: burlywood;
-}
-
-#start-collaboration {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #fff;
+.start-collaboration:hover {
+  background-color: rgb(235, 233, 232);
+  color: #1a2236;
 }
 
 .image-container {
@@ -85,6 +94,40 @@
   width: 320px;
   height: 160px;
   top: 472px;
+}
+
+.grid-project-image5 {
+  background-image: url("assets/Rectangle21-5.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
+}
+
+.grid-project-image1 {
+  background-image: url("assets/Rectangle-21.png");
+  background-repeat: no-repeat;
+  height: 180px;
+}
+
+.grid-project-image2 {
+  background-image: url("assets/Rectangle-21-2.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
+}
+
+.grid-project-image3 {
+  background-image: url("assets/Rectangle21-3.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
+}
+
+.grid-project-image4 {
+  background-image: url("assets/Rectangle21-4.png");
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 320px;
 }
 
 .text_colo {
@@ -112,13 +155,12 @@
 
 .project_container {
   position: absolute;
-  width: 320px;
   height: 2134px;
   left: 0; /* no unit */
   top: 672px;
 }
 
-.project_title_holder {
+.section_title_holder {
   position: absolute;
   width: 181px;
   height: 50px;
@@ -130,15 +172,212 @@
   color: #1a2236;
 }
 
-#project-heading {
-  margin-top: 0;
+.section_title_holder-about {
+  margin-top: 500px;
+}
+
+.section_title_holder > h3 {
   font-weight: 100;
+  margin-top: 0;
 }
 
 .Rectangle_image {
   position: absolute;
-  width: 320px;
   height: 2052px;
   left: 0; /* no unit */
   top: 754px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-item1 {
+  margin-top: 80px;
+}
+
+.grid-item {
+  padding-bottom: 0;
+  margin-top: 155px;
+}
+
+.project-details {
+  position: absolute;
+  width: 100%;
+  height: 156px;
+  left: 0;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+}
+
+.project-details > h5 {
+  position: absolute;
+  width: 264px;
+  left: 6%;
+  margin-top: 15px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.technology-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 0;
+  margin-left: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.technology-grid-item {
+  height: 20px;
+  background: #98dede;
+  margin-right: 15px;
+  margin-top: 45px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 10.3334px;
+  line-height: 0%;
+  font-weight: 400;
+}
+
+.technology-grid-item > p {
+  text-align: center;
+}
+
+.see-project-button {
+  width: 178px;
+  height: 44px;
+  left: 20px;
+  border: 1px solid #fff;
+  background: #1a2236;
+  color: azure;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.see-project-button:hover {
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.about-container {
+  margin-top: 1980px;
+}
+
+.about-desc {
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 2550px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+}
+
+.about-desc-button {
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #1a2236;
+}
+
+.about-desc-button:hover {
+  background: #fff;
+  color: #1a2236;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.language-grid-item {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 2800px;
+  background: #1c528a;
+}
+
+.framework-grid-item {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3110px;
+  background: #e2505c;
+}
+
+.skill-grid-item {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3420px;
+  background: #febf52;
+  padding: 0%;
+}
+
+.language-grid-item > img {
+  position: absolute;
+  left: 185px;
+  top: 185px;
+}
+
+.framework-grid-item > img {
+  position: absolute;
+  left: 192px;
+  top: 192px;
+}
+
+.skill-grid-item > img {
+  position: absolute;
+  left: 185px;
+  top: 185px;
+  padding: 0%;
+}
+
+.about-skill-heading {
+  margin-bottom: 0;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  padding-left: 65px;
+}
+
+.skill-list {
+  margin-left: 40px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
 }
